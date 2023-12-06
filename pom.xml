@@ -56,6 +56,15 @@
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>${checkstyle.version}</version>
                 </plugin>
+                <!-- Add maven-war-plugin configuration -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>3.3.1</version> <!-- Use a version compatible with your environment -->
+                    <configuration>
+                        <!-- Add any specific configuration for the war plugin if needed -->
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -90,3 +99,5 @@
         </plugins>
     </reporting>
 </project>
+
+   
